@@ -60,7 +60,7 @@ jobs:
 
   - template: azure/posix.yml
     parameters:
-      name: linux
+      name: linuxaarch64
       vmImage: ubuntu-18.04
       matrix:
         py_3.6_aarch64manylinux2014:
